@@ -1,0 +1,24 @@
+{
+    "rock": [
+        {
+           "artists": [
+               {
+                 "name": "Bon Jovi",
+                 "biography": "Bon Jovi is an American rock band from Sayreville, New Jersey. Formed in 1983, Bon Jovi consists of lead singer and namesake Jon Bon Jovi, pianist and keyboardist David Bryan, drummer Tico Torres, lead guitarist Phil X, and bassist Hugh McDonald.[1] The band's lineup has remained mostly static during its history, with the only exceptions being the 1994 dismissal of bass player Alec John Such, who was unofficially replaced by Hugh McDonald, and the departure of longtime guitarist and co-songwriter Richie Sambora in 2013. Phil X and McDonald both became official members in 2016.[2]",
+                 "origin": "Sayreville, New Jersey, US",
+                 "genres": ["Hard Rock", "Glam Metal", "Arena Rock", "Pop Rock"],
+                 "members": [["Jon Bon Jovi"], ["David Bryan"], ["Tico Torres"], ["Phil X"], ["Hugh McDonald"]],
+                "hits": ["vx2u5uUu3DE", "lDK9QqIzhwk", "KrZHPOeOxQQ"]
+               },
+               {
+                "name": "AC/DC",
+                "biography": "AC/DC are an Australian rock band, formed in Sydney in 1973 by brothers Malcolm and Angus Young.[1] A hard rock/blues rock band,[2] they have also been considered a heavy metal band,[3][4][5][6] although they have always dubbed their music simply rock and roll.[7]AC/DC underwent several line-up changes before releasing their first album, High Voltage, in 1975. Membership subsequently stabilised until bassist Mark Evans was replaced by Cliff Williams in 1977 for the album Powerage. Within months of recording the album Highway to Hell, lead singer and co-songwriter Bon Scott died on 19 February 1980 after a night of heavy alcohol consumption.The group considered disbanding, but buoyed by support from Scott's parents, decided to continue and set about finding a new vocalist.[8] Ex-Geordie singer Brian Johnson was auditioned and selected to replace Scott. Later that year, the band released the new album Back in Black, which was made as a tribute to Bon Scott. The album launched them to new heights of success and became their all-time best-seller.",
+                "origin": "Sydney, New South Wales, Australia",
+                "genres": ["Hard Rock", "Blues Rock", "Rock And Roll"],
+                "members": ["Angus Young", "Stevie Young", "Chris Slade", "Axl Rose"],
+                "hits": ["v2AC41dglnM", "gEPmA3USJdI", "44XYEeD1A1U"]
+               }
+           ] 
+        }
+    ]
+}
