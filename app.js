@@ -3,9 +3,13 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 const jsonData = require("./public/db.json");
+const cors = require("cors");
 
 // Set port for heroku
 const port = process.env.PORT || 8000;
+
+// Use CORS
+app.use(cors());
 
 // Init App
 const app = express();
