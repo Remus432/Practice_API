@@ -4,6 +4,9 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const jsonData = require("./public/db.json");
 
+// Set port for heroku
+const port = process.env.PORT || 8000;
+
 // Init App
 const app = express();
 
@@ -23,7 +26,7 @@ const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const jsonParser = bodyParser.json();
 
 // Home request
-app.get("/", (req, res) => {
+app.get("/", (req, res) => {0
     res.render("index", {
         songs: jsonData,
         artists: ["AC/DC", "Iron Maiden", "The Disturbed", "Bon Jovi", "Parkway Drives"]
@@ -36,6 +39,6 @@ app.get("/artists", (req, res) => {
 })
 
 // Listen to port
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("Connection to port 3000 has been established...");
 })
