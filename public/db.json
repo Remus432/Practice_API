@@ -1,17 +1,19 @@
 {
-    "rock": [
+    "rock": 
         {
-           "artists": [
+           "bands": [
                {
                  "name": "Bon Jovi",
+                 "img": "https://www.billboard.com/files/media/bon-jovi-1987-billboard-1548.jpg",
                  "biography": "Bon Jovi is an American rock band from Sayreville, New Jersey. Formed in 1983, Bon Jovi consists of lead singer and namesake Jon Bon Jovi, pianist and keyboardist David Bryan, drummer Tico Torres, lead guitarist Phil X, and bassist Hugh McDonald.[1] The band's lineup has remained mostly static during its history, with the only exceptions being the 1994 dismissal of bass player Alec John Such, who was unofficially replaced by Hugh McDonald, and the departure of longtime guitarist and co-songwriter Richie Sambora in 2013. Phil X and McDonald both became official members in 2016.[2]",
                  "origin": "Sayreville, New Jersey, US",
                  "genres": ["Hard Rock", "Glam Metal", "Arena Rock", "Pop Rock"],
-                 "members": [["Jon Bon Jovi"], ["David Bryan"], ["Tico Torres"], ["Phil X"], ["Hugh McDonald"]],
+                 "members": ["Jon Bon Jovi", "David Bryan", "Tico Torres", "Phil X", "Hugh McDonald"],
                 "hits": ["vx2u5uUu3DE", "lDK9QqIzhwk", "KrZHPOeOxQQ"]
                },
                {
                 "name": "AC/DC",
+                "img": "http://a.abcnews.com/images/Entertainment/ac-dc-gty-jt-171118_4x3_992.jpg",
                 "biography": "AC/DC are an Australian rock band, formed in Sydney in 1973 by brothers Malcolm and Angus Young.[1] A hard rock/blues rock band,[2] they have also been considered a heavy metal band,[3][4][5][6] although they have always dubbed their music simply rock and roll.[7]AC/DC underwent several line-up changes before releasing their first album, High Voltage, in 1975. Membership subsequently stabilised until bassist Mark Evans was replaced by Cliff Williams in 1977 for the album Powerage. Within months of recording the album Highway to Hell, lead singer and co-songwriter Bon Scott died on 19 February 1980 after a night of heavy alcohol consumption.The group considered disbanding, but buoyed by support from Scott's parents, decided to continue and set about finding a new vocalist.[8] Ex-Geordie singer Brian Johnson was auditioned and selected to replace Scott. Later that year, the band released the new album Back in Black, which was made as a tribute to Bon Scott. The album launched them to new heights of success and became their all-time best-seller.",
                 "origin": "Sydney, New South Wales, Australia",
                 "genres": ["Hard Rock", "Blues Rock", "Rock And Roll"],
@@ -19,6 +21,17 @@
                 "hits": ["v2AC41dglnM", "gEPmA3USJdI", "44XYEeD1A1U"]
                }
            ] 
-        }
-    ]
+        },
+    "rap": {
+        "artists": [
+            {
+                "name": "Jay-Z",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Jay-Z_2011.jpg/1200px-Jay-Z_2011.jpg",
+                "biography": "Shawn Corey Carter (born December 4, 1969), known professionally as JAY-Z, is an American rapper and businessman. He is one of the best-selling musicians of all time, having sold more than 100 million records, while receiving 21 Grammy Awards for his music. MTV ranked him the Greatest MC of all time in 2006.Rolling Stone ranked three of his albums—Reasonable Doubt (1996), The Blueprint (2001), and The Black Album (2003)—among The 500 Greatest Albums of All Time. In 2017, Forbes estimated his net worth at $810 million, making him the second-richest hip hop artist in the U.S.",
+                "origin": "Brooklyn, New York, U.S",
+                "genres": "Hip hop",
+                "hits": ["ViwtNLUqkMY", "gG_dA32oH44", "Oz_-VaTHpc8"]
+            }
+        ]
+    }
 }
