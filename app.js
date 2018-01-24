@@ -35,6 +35,7 @@ app.get("/", (req, res) => {0
 
 // API Request
 app.get("/artists", (req, res) => {
+    res.type("json");
     res.json(jsonData)
 })
 
