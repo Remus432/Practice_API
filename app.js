@@ -48,7 +48,7 @@ app.get("/api/artists", (req, res) => {
     for(let i of jsonData.rap.artists) {
         if(artists[i].name === artist.toLowerCase()) {
             res.type("json");
-            res.json({artist: jsonData.rap.artists.name});
+            res.json({artist: jsonData.rap.artists[i]});
         }
     }
     
