@@ -46,7 +46,7 @@ app.get("/api", (req, res) => {
 app.get("/api/artists", (req, res) => {
     const artist = req.param("artist");
     res.type("json");
-    res.json({arist: jsonData.rap.artists});
+    res.json({artist: jsonData.rap.artists.name});
 })
 
 
