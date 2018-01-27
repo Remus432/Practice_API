@@ -38,10 +38,19 @@ app.get("/", (req, res) => {0
 })
 
 // API Request
-app.get("/artists", (req, res) => {
+app.get("/api", (req, res) => {
     res.type("json");
-    res.json(jsonData)
+    res.json(jsonData);
 })
+
+app.get("/api/artists", (req, res) => {
+    const artist = req.param("artist");
+    res.type("json");
+    res.json({arist: jsonData.rap.artists});
+})
+
+
+
 
 // Listen to port
 app.listen(port, () => {
