@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const jsonData = require("./public/db.json");
 const cors = require("cors");
+const lowerCase = require("lower-case");
 
 // Set port for heroku
 const port = process.env.PORT || 8000;
@@ -43,17 +44,16 @@ app.get("/api", (req, res) => {
     res.json(jsonData);
 })
 
-app.get("/api/artists", (req, res) => {
-    const artist = req.param("artist");
-    for(let i of jsonData.rap.artists) {
-        if(artists[i].name === artist.toLowerCase()) {
+app.get("/api/artists/:name", (req, res) => {
+    const artistName = req.params.name;
+    for(let artist of jsonData.rap.artists) {
+        if(lowerCase(artist.name) === lowerCase(artistName)) {
             res.type("json");
-            res.json({artist: jsonData.rap.artists[i]});
+            res.json(artist);
         }
     }
     
 })
-
 
 
 
