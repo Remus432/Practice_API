@@ -31,6 +31,14 @@
                 "origin": "Brooklyn, New York, U.S",
                 "genres": "Hip hop",
                 "hits": ["ViwtNLUqkMY", "gG_dA32oH44", "Oz_-VaTHpc8"]
+            },
+            {
+                "name": "Eminem",
+                "img": "https://www.biography.com/.image/t_share/MTQ3NjM5MTEzMTc5MjEwODI2/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg",
+                "biography": "Marshall Bruce Mathers III (born October 17, 1972), known professionally as Eminem (often stylized as EMINƎM), is an American rapper, songwriter, record producer, and actor. Eminem is the best-selling artist of the 2000s in the United States. Throughout his career, he has had 10 number-one albums on the Billboard 200 and five number-one singles on the Billboard Hot 100. With US sales of 47.4 million albums[1] and 42 million tracks as of June 2014, Eminem is the second best-selling male artist of the Nielsen SoundScan era, the sixth best-selling artist in the United States and the best-selling hip-hop artist. Globally, he has sold around 172 million albums, making him one of the world's best-selling artists.[2] Additionally, he is the only artist to have eight albums consecutively debut at No. 1 on the Billboard 200.[3] Rolling Stone ranked him 83rd on its list of 100 Greatest Artists of All Time,calling him the King of Hip Hop.",
+                "orgin": "Marshall Bruce Mathers III",
+                "genres": "Hip hop",
+                "hits": ["_Yhyp-_hX2s", "j5-yKhDd64s", "XbGs_qK2PQA"]
             }
         ]
     }
